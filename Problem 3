@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+//declare: starts with void/int/char/etc, ends with a ;
+void snail();
+
+int main() {
+	//call: does NOT start with void/etc, ends with a ;
+	snail();
+
+
+
+}
+
+//definition: starts with void/int/char/etc, ends with {}
+void snail() {
+	int num = 1;
+	while (num <= 3) {
+		cout << "snail number " << num << endl;
+		num++;
+	}
+
+}

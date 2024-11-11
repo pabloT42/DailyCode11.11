@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+//function declaration
+void printBananas();
+
+int main() {
+
+	printBananas();
+
+
+}
+
+
+//function declaration 
+void printBananas() {
+
+	for (int i = 0; i < 3; i++)
+		cout << "banana dance!" << endl;
+
+		
+}
+
+

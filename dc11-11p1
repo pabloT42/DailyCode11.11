@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+void checkCarrots();
+
+int main() {
+
+	checkCarrots(); // call
+
+}
+
+
+
+//definition
+void checkCarrots() {
+	int carrots;
+	cout << "enter carrots!" << endl;
+	cin >> carrots;
+	if (carrots > 3)
+		cout << "too many carrots!!" << endl;
+	else
+		cout << "not enough carrots" << endl;
+
+
+}
+
+
